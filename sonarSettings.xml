@@ -1,0 +1,13 @@
+<application>
+  <component name="sonarServers">
+    <option name="beans">
+      <list>
+        <SonarServerConfig>
+          <option name="hostUrl" value="http://10.6.148.75:9010" />
+          <option name="name" value="SonarAltran" />
+          <option name="user" value="sonar" />
+        </SonarServerConfig>
+      </list>
+    </option>
+  </component>
+</application>
