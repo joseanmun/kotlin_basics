@@ -1,6 +1,8 @@
 package io.bucare.www.kotlintutorial.utils;
 
+import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
+import io.bucare.www.kotlintutorial.BuildConfig;
 import javax.inject.Singleton;
 
 /**
@@ -53,6 +55,10 @@ import javax.inject.Singleton;
   }
 
   @Override public void init() {
-
+    Logger.addLogAdapter(new AndroidLogAdapter() {
+      @Override public boolean isLoggable(int priority, String tag) {
+        return BuildConfig.DEBUG;
+      }
+    });
   }
 }

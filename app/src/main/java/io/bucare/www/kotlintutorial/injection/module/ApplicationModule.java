@@ -39,7 +39,9 @@ import okhttp3.OkHttpClient;
   }
 
   @Provides @Singleton LoggingProvider providesLogger() {
-    return new LoggingProviderImpl();
+    LoggingProviderImpl loggingProvider = new LoggingProviderImpl();
+    loggingProvider.init();
+    return loggingProvider;
   }
 
   @Provides @Singleton OkHttpClient.Builder provideOkHttpClient(Context context,
