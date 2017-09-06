@@ -94,8 +94,12 @@
           <option name="url" value="https://github.com/TMB-Barcelona/ocimobilepos.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://amunozmedina@bitbucket.nespresso.com/scm/imug/nescafe_imug-android.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/android-studio/tmb" />
+    <option name="cloneParentDir" value="$USER_HOME$/android-studio/nestle" />
   </component>
 </application>
