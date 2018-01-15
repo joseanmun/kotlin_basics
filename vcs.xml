@@ -110,8 +110,12 @@
           <option name="url" value="https://github.com/AXA-GROUP-SOLUTIONS/axadrive2-android.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitlab.cwsfirabarcelona.com:projects_group/mwc-android.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/android-studio/axa" />
+    <option name="cloneParentDir" value="$USER_HOME$/android-studio/fira" />
   </component>
 </application>
